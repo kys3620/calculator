@@ -1,3 +1,5 @@
+#include "IOperator.h"
+
 class Calculator
 {
 public:
@@ -14,5 +16,6 @@ private:
 private:
     int num1, num2;
     char op;
-    float res;    
+    float res;   
+    IOperator* iop; 
 };
